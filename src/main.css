@@ -33,6 +33,17 @@
   padding: 2px 5px;
   margin: 5px;
 }
-.markdown-preview-view .fc table {
+.markdown-preview-view .fc table,
+.markdown-reading-view .fc table {
   margin-bottom: 0px;
+}
+.fc .fc-daygrid-body td,
+.fc .fc-daygrid-day-frame {
+  overflow: visible;
+}
+.fc.fc-media-screen .fc-scrollgrid-section,
+.fc.fc-media-screen .fc-scrollgrid-section > td,
+.fc.fc-media-screen .fc-scrollgrid-section table {
+  height: auto;
+  min-height: 1px;
 }
